@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .upper-section {
+    display: flex;
+  }
+  .level-display {
+    margin: 160px 0 0;
+    display: flex;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: red
+  }
+  .level-display>span {
+    margin-left: 12px; 
+  }
+  .playground {
+    border: solid 10px green;
+    border-radius: 10px;
+    position: relative;
+    margin-left: -10px;
+    margin-top: -9px;
+  } 
+  .fragment {
+    height: 20px;
+    width: 20px;
+    background: gold;
+    position: absolute;
+    border-radius: 5px;
+  }
+
+  .button {
+    width: 90px;
+    padding: 5px 15px;
+    font-size: large;
+    background: white;
+    border: solid green;
+    border-radius: 5px;
+    color: green;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 40px;
+  }
+  .button:hover {
+    background: gold;
+    transition: 0.2s ease;
+  }
+  .pause-button {
+    margin-left: 30px;
+  }
+  .game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    color: rebeccapurple;
+  }
+  .fa-apple-whole {
+    color: red;
+    font-size: 20px;
+    position: absolute;
+  }
+
+  .container {
+    border: solid red;
+    margin: 50px 100px 0;
+    position: relative;
+  }
+
+  
